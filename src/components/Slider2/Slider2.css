@@ -1,0 +1,98 @@
+.slider2 {
+  background: url("../../images//SliderContact.jpg");
+  background-size: cover;
+  background-attachment: fixed; /* To make parallax scrolling */
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider2 .overlay {
+  background-color: rgba(24, 24, 57, 0.5);
+  width: auto;
+  position: relative;
+}
+
+.slider2 .contentCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider2 .contentCon .slogan {
+  color: #fff;
+  font-size: 100px;
+  list-style: none;
+  text-align: left;
+}
+
+.slider2 .contentCon .slogan li {
+  position: relative;
+  animation-fill-mode: both;
+  animation-duration: 2s;
+  font-family: inherit;
+  letter-spacing: 3px;
+}
+
+.slider2 .contentCon .slogan li:first-of-type {
+  animation-name: slide;
+}
+
+.contentCon p {
+  padding-top: 10%;
+  margin-right: 0%;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  color: #fff;
+  white-space: normal;
+}
+
+@keyframes slide2 {
+  from {
+    left: -500%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slideBack {
+  from {
+    left: +500%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .slider .contentCon .slogan {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slider .contentCon .slogan {
+    font-size: 65px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slider .contentCon .slogan {
+    font-size: 75px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .slider .contentCon .slogan {
+    font-size: 90px;
+  }
+}

@@ -1,0 +1,101 @@
+.service {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid #fff;
+}
+
+.service .img-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.service .img-holder img {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service h4 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #181839;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0 10px;
+}
+
+.service .separation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #fff;
+}
+
+.service .separation .line {
+    width: 40%;
+    height: 2px;
+    background-color: #181839;
+    border-radius: 5px;
+}
+
+.service .separation .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #181839;
+    border: none;
+}
+
+.service p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #aaa;
+    width: 100%;
+    padding: 20px calc(20% - 30px) 20px 30px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .service {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .service {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .service {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .service {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+}

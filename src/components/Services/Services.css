@@ -1,0 +1,70 @@
+.services {
+    padding: 80px 0;
+    overflow: hidden;
+    background: url(../../images//wave.svg);
+    background-size: cover;
+}
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.services h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 160px;
+}
+
+.services .services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 575.98px) {
+    .services h2 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .services .services-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .services h2 {
+        font-size: 30px;
+        letter-spacing: 2.5px;
+    }
+
+    .services .services-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .services h2 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+
+    .services .services-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .services .services-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1200px) {
+}

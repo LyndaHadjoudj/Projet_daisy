@@ -1,0 +1,154 @@
+.reviews {
+    display: flex;
+    margin: 100px 0;
+}
+
+.reviews .left-box {
+    width: 50%;
+    background: linear-gradient(
+        0deg,
+        rgba(24, 24, 57, 1) 0%,
+        rgba(86, 86, 149, 1) 100%
+    );
+    padding: 20px 0 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews .left-box span {
+    font-family: "Rampart One", cursive;
+    font-size: 70px;
+    color: #ffbc00;
+    font-style: italic;
+}
+
+.reviews .left-box .reviews-handler {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.reviews .left-box span:last-of-type {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.reviews .left-box .control-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.reviews .left-box .control-buttons > div {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 25px;
+    color: #181839;
+    cursor: pointer;
+    border-bottom: 2px solid #181839;
+    transition: all 0.25s ease-in-out;
+}
+
+.reviews .left-box .control-buttons .prev {
+    background-color: #c4c4c4;
+}
+
+.reviews .left-box .control-buttons .prev:hover {
+    transform: translateX(-10px);
+}
+
+.reviews .left-box .control-buttons .next {
+    background-color: #ffbc00;
+    margin-right: 10px;
+}
+
+.reviews .left-box .control-buttons .next:hover {
+    transform: translateX(10px);
+}
+
+.reviews .right-box {
+    width: 50%;
+    border-top: 2px solid #565695;
+    border-bottom: 2px solid #181839;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews .right-box h2 {
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    color: #181839;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.reviews .right-box button {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffbc00;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    .reviews .left-box {
+        padding-left: 10px;
+    }
+
+    .reviews .left-box span:last-of-type {
+        margin-right: 30px;
+    }
+
+    .reviews .right-box h2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .reviews .right-box button {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .reviews .left-box {
+        padding-left: 10px;
+    }
+
+    .reviews .left-box span:last-of-type {
+        margin-right: 30px;
+    }
+
+    .reviews .right-box h2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .reviews .right-box button {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .reviews .left-box {
+        padding-left: 20px;
+    }
+
+    .reviews .left-box span:last-of-type {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .reviews .left-box {
+        padding-left: 50px;
+    }
+
+    .reviews .left-box span:last-of-type {
+        margin-right: 60px;
+    }
+}
