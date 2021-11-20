@@ -19,7 +19,7 @@ const Slider2 = () => {
                 
            <div className='contentCon'>
                     <ul className='slogan title'>
-                        <li style={{ color: "#ffbc00" }}>Contatez Nous</li>
+                        <li style={{ color: "#ffbc00" }}>contactez nous</li>
                         
                         
                        
