@@ -1,5 +1,5 @@
 .slider2 {
-  background: url("../../images//SliderContact.jpg");
+  background: url("../../images//SLIDERCON.jpg");
   background-size: cover;
   background-attachment: fixed; /* To make parallax scrolling */
   background-position: center;
@@ -21,8 +21,8 @@
   justify-content: center;
   overflow: hidden;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 65%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 
@@ -43,16 +43,6 @@
 
 .slider2 .contentCon .slogan li:first-of-type {
   animation-name: slide;
-}
-
-.contentCon p {
-  padding-top: 10%;
-  margin-right: 0%;
-  font-size: 20px;
-  line-height: 25px;
-  letter-spacing: 0.8px;
-  color: #fff;
-  white-space: normal;
 }
 
 @keyframes slide2 {
