@@ -1,7 +1,7 @@
 .slider2 {
-  background: url("../../images//SLIDERCON.jpg");
-  background-size: cover;
-  background-attachment: fixed; /* To make parallax scrolling */
+  background: url("../../images//Icon-call-.jpg");
+  width: 100%;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -21,8 +21,8 @@
   justify-content: center;
   overflow: hidden;
   position: absolute;
-  top: 65%;
-  left: 45%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
